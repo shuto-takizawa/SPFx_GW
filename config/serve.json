@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "hostname": "0.0.0.0",
+  "https": true,
+  "initialPage": "https://localhost:6543/workbench",
+  "api": {
+    "port": 6543,
+    "entryPath": "node_modules/@microsoft/sp-webpart-workbench/lib/api/"
+  }
+}

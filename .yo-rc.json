@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "packageManager": "yarn",
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.11.0",
+    "libraryName": "spfx",
+    "libraryId": "1267cd46-7528-420a-bad4-5363fd022a97",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
