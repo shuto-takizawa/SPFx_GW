@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/helloWorld/HelloWorldWebPart.manifest.json"
         }
       ]
+    },
+    "user-filter-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/userFilter/UserFilterWebPart.js",
+          "manifest": "./src/webparts/userFilter/UserFilterWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js"
+    "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js",
+    "UserFilterWebPartStrings": "lib/webparts/userFilter/loc/{locale}.js"
   }
 }
